@@ -1,0 +1,10 @@
+* {margin:0px;padding:0}
+body {cursor:default;font: normal 11px Verdana, Tahoma, Arial, Helvetica, sans-serif;background-color:#ffffff;margin-bottom:0px; margin-top:4px;margin-left:4px;}
+div.container {width:800px;}
+.fieldsets {margin:0 auto;overflow:auto;width:650px;}
+fieldset {float:left; border:1px solid;width:300px;padding:5px;margin-bottom:10px;}
+legend {font-weight:bold;}
+table tbody tr td {border:1px solid; width:50px; height:50px;font-size:40px;text-align:center;}
+table {margin:0 auto;clear:both;}
+input.btn{font-size:11px;margin-bottom:10px;}
+div#msgBox {padding:5px;line-height:30px;font-size:11px;border:1px solid; width:640px;height:30px;margin:0 auto;margin-bottom:10px;}

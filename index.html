@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<title>OX</title>
+<script type="text/javascript" src="./myObjects.js"></script>
+<script type="text/javascript" src="./frontend.js"></script>
+</head>
+<body>
+
+<div class="container">
+	<div class="fieldsets">
+		<fieldset style="margin-right:20px;">
+			<legend>player X</legend>
+			<span>name:</span> <span id="nameX"></span><br />
+			<span>last action:</span> <span id="actionX"></span><br />
+		</fieldset>
+		
+		<fieldset>
+			<legend>player O</legend>
+			<span>name:</span> <span id="nameO"></span><br />
+			<span>last action:</span> <span id="actionO"></span><br />
+		</fieldset>
+		<input type="button" id="start" class="btn" value="Start a new game?" />
+	</div>
+	<div id="msgBox"></div>
+	<table class="board">
+		<tr>
+			<td id="00"></td>
+			<td id="01"></td>
+			<td id="02"></td>
+		</tr>
+		<tr>
+			<td id="10"></td>
+			<td id="11"></td>
+			<td id="12"></td>
+		</tr>
+			<tr>
+			<td id="20"></td>
+			<td id="21"></td>
+			<td id="22"></td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>
